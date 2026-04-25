@@ -1,8 +1,30 @@
 # the-rust-way
 This Repo Contains my Week Long Journey Trying to Learn Rust Programming Language 🦀.
 
+### Structure:
+```
+src/
+ ├── main.rs
+ └── bin/
+      ├── condition.rs
+      ├── loops.rs
+```
 
+Each file inside bin/ is its own program.
 
+Example: `src/bin/condition.rs`
+
+```
+fn main() {
+    println!("This is condition example");
+}
+```
+
+Run it like this:
+
+```
+cargo run --bin conditon
+```
 
 
 ## 💪 Thanks to all Wonderful Contributors
@@ -17,4 +39,6 @@ Thanks a lot! Keep rocking 🍻
 This project needs your shiny star ⭐.   
 Don't forget to leave a star ⭐️
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-rust.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-rust.svg)](https://forthebadge.com) 
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
